@@ -1,0 +1,347 @@
+:root {
+  --breakpoint-sm: 411px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1600px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: solid #e0e0e0 2px;
+  z-index: 1000;
+}
+
+#hero-section {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(/img/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 50px;
+  padding-top: 100px;
+  height: auto;
+  font-family: "Manrope", sans-serif;
+  font-weight: bolder;
+}
+
+#hero-section img {
+  border: solid white 5px;
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+}
+
+h3 {
+    font-family: "Alata", sans-serif;
+}
+
+#hero-section h1 {
+  color: white;
+  font-family: "Alata", sans-serif;
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+
+#mission-section {
+  box-shadow: inset 0 12px 12px -12px #59b1b5;
+}
+
+#skills-section {
+  background-color: #59b1b5;
+  padding: 20px 0 20px 0;
+  color: white;
+}
+
+#skill-h1 {
+  color: white;
+  font-family: "Manrope", sans-serif;
+}
+
+#skill-img {
+  min-width: 140px;
+}
+
+#skillsbox {
+  padding: 20px 0 20px 0;
+  margin: 0;
+}
+
+#badge-section {
+  background-color: #59b1b5;
+  padding: 20px 0 20px 0;
+  color: white;
+}
+
+section {
+  padding: 20px;
+  scroll-margin-top: 50px;
+}
+
+section h1 {
+  color: #59b1b5;
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+}
+
+section h5 {
+  color: #369b80;
+  background-color: #ebfeff;
+  margin-bottom: 0px;
+  padding: 5px;
+}
+
+hr {
+  height: 12px;
+  box-shadow: inset 0 12px 12px -12px #59b1b5;
+  border-top: 0px solid rgb(128, 128, 128);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#myproj {
+  padding-bottom: 25px;
+}
+
+#round {
+  padding: 25px;
+}
+
+.carousel .carousel-item {
+  min-height: 75vh;
+}
+
+#round img {
+  position: absolute;
+  object-fit: contain;
+  top: 0;
+  left: 0;
+  max-width: none;
+  min-width: 100%;
+  height: 100%;
+  width:auto;
+  
+}
+
+#contact-section {
+  color: #59b1b5;
+  padding: 40px 0;
+}
+
+#contact-section h1{
+  padding-bottom: 25px;
+}
+
+#contact-section .row {
+  margin-left: -25px;
+  margin-right: -25px;
+}
+
+#contact-section .col-12 {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#contact-section i{
+  font-size: 3rem;
+  margin: 20px 0;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+#contact-section i:hover {
+  color: #59b1b5;
+}
+
+footer {
+  text-align: center;
+  color: #369b80;
+  background-color: #09090c;
+  margin: auto;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0px;
+  font-family: "Manrope", sans-serif;
+}
+
+/* 1600px and smaller */
+@media (max-width: 1600px) {
+  #hero-section img {
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+  }
+
+  #hero-section h1 {
+    width: 100%;
+  }
+
+  .col-xl-custom {
+    width: 45%;
+    padding: 2%;
+  }
+
+  #skills-section .col-xl-custom {
+    width: 20%;
+    padding: 0 2% 0 2%;
+    text-align: center;
+  }
+
+  #badge-section .col-xl-custom {
+    width: 20%;
+    padding: 0 2% 0 2%;
+    text-align: center;
+  }
+
+}
+
+/* iPad in landscape mode and smaller */
+@media (max-width: 1024px) {
+  #hero-section img {
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+  }
+
+  #hero-section h1 {
+    width: 100%;
+  }
+
+  #mission-section img {
+    width: 50%;
+  }
+
+  .col-lg-custom {
+    width: 45%;
+    padding: 2%;
+  }
+
+  #skills-section .col-lg-custom {
+    width: 20%;
+    padding: 0 2% 0 2%;
+    text-align: center;
+  }
+
+  #badge-section .col-lg-custom {
+    width: 20%;
+    padding: 0 2% 0 2%;
+    text-align: center;
+  }
+}
+
+/* iPad in portrait mode and smaller */
+@media (max-width: 768px) {
+
+  #hero-section {
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #hero-section img {
+    border-radius: 50%;
+    height: 40vh;
+    width: 40vh;
+  }
+
+  #hero-section h1 {
+    width: 100%;
+  }
+
+  section {
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  h5 {
+    padding-top: 25px;
+  }
+
+  .col-md-custom {
+    width: 100%;
+  }
+
+  #skills-section .col-md-custom {
+    width: 45%;
+    padding: 0 2% 0 2%;
+    text-align: center;
+  }
+
+  #badge-section .col-md-custom {
+    width: 45%;
+    padding: 0 2% 0 2%;
+    text-align: center;
+  }
+
+  .carousel .carousel-item {
+    min-height: 50vh;
+  }
+}
+
+/* Pixel 2XL and smaller */
+@media (max-width: 411px) {
+
+  #hero-section {
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #hero-section img {
+    border-radius: 50%;
+    height: 30vh;
+    width: 30vh;
+  }
+
+  #hero-section h1 {
+    width: 100%;
+  }
+
+  section {
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  h5 {
+    padding-top: 25px;
+  }
+
+  .col-sm-custom {
+    width: 100%;
+  }
+
+  #skills-section .col-sm-custom {
+    width: 100%;
+    padding: 0 2% 0 2%;
+    text-align: center;
+  }
+
+  #badge-section .col-sm-custom {
+    width: 100%;
+    padding: 0 2% 0 2%;
+    text-align: center;
+  }
+  
+  .carousel .carousel-item {
+    min-height: 25vh;
+  }
+}
