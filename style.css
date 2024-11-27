@@ -290,7 +290,7 @@ footer p {
 }
 
 /* Pixel 2XL and smaller */
-@media (max-width: 411px) {
+@media (max-width: 320px) {
 
   #hero-section {
     height: 100vh;
