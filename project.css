@@ -1,1 +1,15 @@
-
+:root {
+    --breakpoint-sm: 411px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1600px;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: solid #e0e0e0 2px;
+    z-index: 1000;
+  }
+  
