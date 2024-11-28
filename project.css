@@ -13,10 +13,10 @@
     z-index: 1000;
   }
   
-h1{
+  h1{
     font-family: "Alata", sans-serif;
     text-align: center;
-}
+  }
 
   iframe {
     width: 75vw;
