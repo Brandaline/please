@@ -12,6 +12,10 @@
     border-bottom: solid #e0e0e0 2px;
     z-index: 1000;
   }
+
+  #start {
+    padding-top: 100px;
+  }
   
   h3 {
     font-family: "Alata", sans-serif;
