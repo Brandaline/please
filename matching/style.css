@@ -1,9 +1,10 @@
 html, body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     overflow: hidden;
-  }
-
+    height: auto;
+}
 :root {
   --card-width: 125px;
   --card-height: 175px;
