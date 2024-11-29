@@ -9,3 +9,4 @@ iframeLib.onload = function () {
     var contentHeight = iframeLib.contentWindow.document.body.scrollHeight;
     iframeLib.style.height = contentHeight / scaleFactor + 'px';
 };
+

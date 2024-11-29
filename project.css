@@ -1,45 +1,96 @@
 :root {
-    --breakpoint-sm: 320px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 1024px;
-    --breakpoint-xl: 1600px;
-  }
-  
-  header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    border-bottom: solid #e0e0e0 2px;
-    z-index: 1000;
-  }
+  --breakpoint-sm: 320px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1600px;
+}
 
-  #start {
-    padding-top: 100px;
-  }
-  
-  h3 {
-    font-family: "Alata", sans-serif;
-    text-align: center;
-  }
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: solid #e0e0e0 2px;
+  z-index: 1000;
+}
 
-  p {
-    text-align: center;
-  }
+#start {
+  padding-top: 75px;
+  border: 50px;
+  font-family: "Manrope", sans-serif;
+  font-weight: bolder;
+  font-size: xx-large;
+  text-align: center;
+  color: #59b1b5;
+}
 
-  iframe {
-    width: 75vw;
-    overflow: hidden;
-    display: block;
-    justify-content: center;
-    align-items: center;
-  }
+h3 {
+  font-family: "Alata", sans-serif;
+  text-align: center;
+  border: 50px;
+}
+
+p {
+  text-align: center;
+}
+
+#cardFull{
+  background-color: #59b1b5;
+  padding: 50px;
+  border-radius: 25;
+  color: white;
+}
+
+#cardFull h3{
+  color: white;
+}
+
+#libFull{
+  color: #59b1b5;
+  padding: 50px;
+}
+
+#libFull h3{
+  color: #59b1b5;
+}
+
+#airFull{
+  background-color: #59b1b5;
+  padding: 50px;
+  border-radius: 25;
+  color: white;
+}
+
+#airFull h3{
+  color: white;
+}
+
+iframe {
+  width: 75vw;
+  overflow: hidden;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+#cardFull iframe{
+  border: 5px, solid, white;
+}
+
+#libFull iframe{
+  border: 5px, solid, #59b1b5;
+}
+
+#airFull iframe{
+  border: 5px, solid, white;
+}
+
+.iframe-container {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  padding: 20px;
   
-  .iframe-container {
-    display: grid;
-    place-items: center;
-    height: 100%;
-    padding: 20px;
-  }
+}
 
 @media (max-width: 1600px) {
 
