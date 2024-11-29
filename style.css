@@ -70,6 +70,10 @@ h3 {
   margin: 0;
 }
 
+#more {
+  text-align: center;
+}
+
 #badge-section {
   background-color: #59b1b5;
   padding: 20px 0 20px 0;
