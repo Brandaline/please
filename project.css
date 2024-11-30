@@ -90,7 +90,7 @@ iframe {
   place-items: center;
   height: 100%;
   padding: 20px;
-  align-items: center;
+  
 }
 
 @media (max-width: 1600px) {
